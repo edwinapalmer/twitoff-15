@@ -15,4 +15,5 @@ class Book(db.Model):
     def __repr__(self):
         return f"<Book {self.id} {self.title}>"
     
-def parse_records(database_records):...  
+def parse_records(database_records):...
+  
